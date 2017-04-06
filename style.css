@@ -66,3 +66,28 @@ header nav ul li a {
         width: 100%;
         height: auto;
         }
+/* Медиа-запросы */
+@media screen and (max-width: 480px) {
+
+    #skipTo {
+        display: block;
+        }
+
+    header nav, #main, aside {
+        float: left;
+        clear: left;
+        margin: 0 0 10px; 
+        width: 100%;
+        }    
+        header nav li {
+            margin: 0;
+            background: #ccc;
+            display: block;
+            margin-bottom: 3px;
+			
+            }
+            header nav a {
+                display: block;
+                padding: 10px;
+                text-align: center;
+                }
