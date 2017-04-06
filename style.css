@@ -1,0 +1,61 @@
+/* Макет */
+#wrapper {
+    width: 96%;    
+    max-width: 920px;
+    margin: auto;
+    padding: 2%;
+    } 
+
+    #main {
+        width: 60%;
+        margin-right: 5%;
+        float: left;
+        }        
+
+    aside {
+        width: 35%;
+        float: right;
+        }
+
+/* Logo  H1 */
+header h1 {
+    height: 98px;
+    width: 216px;
+    float: left;
+    display: block;
+    background: url(sllogo.png) 0 0 no-repeat;
+    text-indent: -9999px;
+    }
+
+/* Навигация */
+header nav {
+    float: right;
+    margin-top: 40px; 
+    }
+
+    header nav li {
+        display: inline;
+        margin-left: 15px;
+        }
+header nav ul li a {
+    text-decoration:none;
+        color:#333;}
+
+#skipTo {
+    display: none;
+    }
+    #skipTo li {
+        background: #ccc;
+        }
+
+/* Главная картинка*/            
+#banner {
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+    }
+
+    #banner img {
+        width: 100%;
+        height: auto;
+        }
